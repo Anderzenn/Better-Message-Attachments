@@ -22,7 +22,7 @@ I hope that is understandable.
  - Different sized images can make the layout look a little odd
  - Images sent in multiple messages instead of one collected message will still show up as they normally do on Discord
 
-If anyone has any ways the known issues can be solved, or possibly even just suggestions, then I will gladly hear them!
+If anyone has any thoughts as to how these issues could be solved, or possibly even just suggestions, then I will gladly hear them!
 
 
 # Theme Preview
