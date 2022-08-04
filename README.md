@@ -31,4 +31,4 @@ Images sent in multiple messages instead of one collected message will still sho
 # Wish to support me?
 If you wish to support me and this project, then you can star the github repo.
 
-If you wish to support me financially, then you can do so by donating to me on paypal from [here](https://paypal.me/anderzenn)
+If you wish to support me financially, then you can do so by donating to me on ko-fi from [here](https://ko-fi.com/anderzenn)!
