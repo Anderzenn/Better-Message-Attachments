@@ -1,0 +1,85 @@
+[id*='message-accessories'] {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+[id*='message-accessories'] [class*='reactions'] {
+    width: 100%;
+}
+
+[id*='message-accessories'] [class*='embedFull'] {
+    width: var(--embed-size);
+    margin-right: .25rem;
+    margin-bottom: .25rem;
+}
+
+[id*='message-accessories'] [class*='embedFull'] [class*='grid'] {
+    padding: .25rem;
+    padding-bottom: .6rem;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+[id*='message-accessories'] [class*='embedFull'] [class*='imageWrapper'] {
+    width: 100%;
+    height: 235px;
+    max-width: 100%!important;
+}
+
+[id*='message-accessories'] [class*='embedFull'] [class*='imageWrapper'] img {
+    display: block!important;
+    height: 100%!important;
+    width: 100%!important;
+    max-width: 100%!important;
+    max-height: 235px!important;
+    object-fit: cover;
+    object-position: center center;
+}
+
+[id*='message-accessories'] [class*='inlineMediaEmbed'] {
+    max-width: var(--image-size)!important;
+    width: var(--gif-size)!important;
+}
+
+[id*='message-accessories'] [class*='inlineMediaEmbed'] [class*='imageWrapper'] {
+    width: 100%;
+    max-width: var(--image-size)!important;
+    border-radius: 6px!important;
+}
+
+[id*='message-accessories'] [class*='inlineMediaEmbed'] [class*='imageWrapper'] video {
+    max-width: 100%!important;
+    max-height: 100%!important;
+}
+
+[id*='message-accessories'] [class*='messageAttachment'] {
+    max-width: var(--image-size)!important;
+    margin-right: .25rem;
+}
+
+[id*='message-accessories'] [class*='messageAttachment'] [class*='imageWrapper'] {
+    max-width: 100%!important;
+    height: 100%;
+    border-radius: 6px;
+}
+
+[id*='message-accessories'] [class*='messageAttachment'] [class*='imageWrapper'] img {
+    max-height: 100%!important;
+    max-width: 100%!important;
+    height: 100%;
+    object-fit: contain!important;
+}
+
+[id*='message-accessories'] [class*='messageAttachment'] [class*='removeAttachmentButton'] {
+    right: 5px;
+    top: 5px;
+    background: rgba(201, 201, 201, 0.5);
+    border-radius: 30px;
+    height: 16px;
+    width: 16px;
+    backdrop-filter: blur(5px);
+    color: #fff;
+}
