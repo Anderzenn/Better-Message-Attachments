@@ -1,13 +1,26 @@
+/* Message Attachments Wrapper */
+
 [id*='message-accessories'] {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    justify-content: safe;
 }
+
+/* Reactions Bar */
 
 [id*='message-accessories'] [class*='reactions'] {
     width: 100%;
 }
+
+/* Wrapper? Used for Discord Invites */
+
+[id*='message-accessories'] [class^='wrapper'] {
+    margin: auto;
+}
+
+/* Embeds */
 
 [id*='message-accessories'] [class*='embedFull'] {
     width: var(--embed-size);
@@ -39,6 +52,8 @@
     object-position: center center;
 }
 
+/* "Inline Media Embed" - Used for GIFs and videos it seems */
+
 [id*='message-accessories'] [class*='inlineMediaEmbed'] {
     max-width: var(--image-size)!important;
     width: var(--gif-size)!important;
@@ -54,6 +69,8 @@
     max-width: 100%!important;
     max-height: 100%!important;
 }
+
+/* Message Attachments (images) */
 
 [id*='message-accessories'] [class*='messageAttachment'] {
     max-width: var(--image-size)!important;
