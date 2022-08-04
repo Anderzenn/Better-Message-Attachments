@@ -19,8 +19,10 @@ I hope that is understandable.
 
 
 # Known Issues
-Different sized images can make the layout look a little odd, I will happily take suggestions as to how that can be fixed while keeping everything tightly put together!
-Images sent in multiple messages instead of one collected message will still show up as they normally do on Discord, I am not sure this is something I can fix due to the way messages are sent on Discord.
+ - Different sized images can make the layout look a little odd
+ - Images sent in multiple messages instead of one collected message will still show up as they normally do on Discord
+
+If anyone has any ways the known issues can be solved, or possibly even just suggestions, then I will gladly hear them!
 
 
 # Theme Preview
