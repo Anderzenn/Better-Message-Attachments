@@ -1,3 +1,8 @@
+# NOW OBSOLETE AS OF 24TH OF FEBRUARY 2023 SINCE DISCORD MADE AN OFFICIAL VERISON
+
+
+
+
 # Better Message Attachments
 This is a simple theme addon for BetterDiscord, that fixes Discord stupid decision to have groups of images be sent in a column instead of in a grid formation.
 This is the first theme I have made for BetterDiscord, any feedback or bug reports would be greatly appreciated!
